@@ -34,11 +34,11 @@ Datasets Structure:
                ├── ground_image2.png
                ├── ...
       ├── gps
-               ├── aerial_image1.png
-               ├── aerial_image2.png
+               ├── aerial_image1.json
+               ├── aerial_image2.json
                ├── ...
-               ├── ground_image1.png
-               ├── ground_image2.png
+               ├── ground_image1.json
+               ├── ground_image2.json
                ├── ...
       ├── satellite_sit.jpg
       ├── trajectory.jpg
