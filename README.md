@@ -3,10 +3,15 @@
 CVD-SfM is a Cross-View Deep Front-end Structure-from-Motion System for Sparse Localization in Multi-Altitude Scenes.
 
 ## Custom-Gathered Datasets
-<p align="left">
-  <img src="overview/sit_dataset.jpg" height="315" title="Stevens Campus">
+### Stevens Institute of Technology Campus
+<p align="center">
+  <img src="overview/sit_dataset.jpg" height="315" title="Stevens Institute of Technology Campus">
 </p>
 
+### Raritan Bay Waterfront Park
+<p align="center">
+  <img src="overview/raritan_dataset.jpg" height="315" title="Raritan Bay Waterfront Park">
+</p>
 
 ```
 └── {DATASET_NAME}
