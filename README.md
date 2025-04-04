@@ -3,6 +3,7 @@
 CVD-SfM is a Cross-View Deep Front-end Structure-from-Motion System for Sparse Localization in Multi-Altitude Scenes.
 
 ## Installation
+Our implementaion is on Ubuntu20.04, python=3.11.5, torch=2.0.0, torchvision=0.15.1.
 ### COLMAP
 ```
 git clone https://github.com/RobustFieldAutonomyLab/CVD-SfM.git
