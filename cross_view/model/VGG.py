@@ -1,15 +1,8 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
 import torchvision.models as models
 import torch.nn as nn
 import torch.nn.functional as F
 import torchvision
 import torch
-
-import utils
-
-
 
 class VGGUnet(nn.Module):
     def __init__(self, level, estimate_depth=0):

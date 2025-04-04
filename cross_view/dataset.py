@@ -5,7 +5,7 @@ import torch
 import torchvision.transforms.functional as TF
 from torchvision import transforms
 from torch.utils.data import Dataset, DataLoader
-import utils
+from . import utils
 
 resized_h = 480
 resized_w = 270

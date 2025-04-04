@@ -1,12 +1,15 @@
 import os
 import torch
-import torch.optim as optim
-from dataset import load_data
-from model.models import Model
+from cross_view.dataset import load_data
+from cross_view.model.models import Model
 import ssl
 import numpy as np
 import os
 import argparse
+from pathlib import Path
+from SfM.feature_extraction import run_disk_extraction
+from SfM.feature_matching import generate_and_match_pairs
+from SfM.reconstruction import run_reconstruction
 
 ssl._create_default_https_context = ssl._create_unverified_context
 
@@ -80,7 +83,6 @@ def parse_args():
     parser.add_argument('--Optimizer', type=str, default='TransV1G2SP', help='')
     parser.add_argument('--proj', type=str, default='CrossAttn', help='geo, CrossAttn')
     parser.add_argument('--use_uncertainty', type=int, default=1, help='0 or 1')
-    parser.add_argument('--root_dir', type=str, help='Root directory for the dataset')
 
     args = parser.parse_args()
 
@@ -96,6 +98,7 @@ if __name__ == '__main__':
     np.random.seed(2022)
 
     args = parse_args()
+    args.root_dir = '/your/root/path/to/dataset'
 
     mini_batch = args.batch_size
 
@@ -103,7 +106,19 @@ if __name__ == '__main__':
     net = Model(args)
     net.to(device)
 
-    net.load_state_dict((torch.load('./model/model.pth')), strict=False)
+    net.load_state_dict((torch.load('./cross_view/model/model.pth')), strict=False)
 
     test(net, args, save_path, epoch=0)
 
+    images = Path(args.root_dir) / 'images'
+    outputs = Path('outputs')
+
+    features = outputs / 'features.h5'
+    matches = outputs / 'matches.h5'
+    pairs = outputs / 'pairs.txt'
+    sfm_output_dir = outputs / 'sfm_output'
+    prior_csv = 'cross_estimation.csv'
+
+    run_disk_extraction(images, features)
+    generate_and_match_pairs(pairs, features, matches)
+    run_reconstruction(sfm_output_dir, images, pairs, features, matches, pose_prior_csv=prior_csv)

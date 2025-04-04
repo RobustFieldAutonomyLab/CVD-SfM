@@ -2,7 +2,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 import numpy as np
 import torch
-import utils
+from . import utils
 import torchvision.transforms.functional as TF
 from .VGG import VGGUnet, Encoder, Decoder, Decoder2, Decoder4
 from .jacobian import grid_sample
