@@ -22,7 +22,7 @@ pip install -r requirements.txt
 ```
 python run_cvd_sfm.py
 ```
-Remeber to change the root dir to your own path.
+Remeber to change the root dir to your own path and make sure /images and /sat dir are included in root dir.
 
 ## Custom-Gathered Dataset: Stevens-Sky2Ground
 We collect two multi-altitude datasets with ground truth GPS for two different sites. Each contains aerial imagery collected by UAV and ground imagery collected by handheld device. One high-resolution satellite imagery from Google Earth Pro is also included for each site. Ground-level GPS is achieved by RTK GNSS using EMLID Reach RS+ receivers.
