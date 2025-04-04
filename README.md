@@ -6,8 +6,18 @@ CVD-SfM is a Cross-View Deep Front-end Structure-from-Motion System for Sparse L
 ### COLMAP
 ```
 git clone https://github.com/RobustFieldAutonomyLab/CVD-SfM.git
+cd CVD-SfM/colmap
+mkdir build && cd build
+cmake .. \
+  -DCMAKE_BUILD_TYPE=Release \
+make -j$(nproc)
+sudo make install
 ```
 
+### Dependence
+```
+pip install -r requirements.txt
+```
 
 ## Custom-Gathered Dataset: Stevens-Sky2Ground
 We collect two multi-altitude datasets with ground truth GPS for two different sites. Each contains aerial imagery collected by UAV and ground imagery collected by handheld device. One high-resolution satellite imagery from Google Earth Pro is also included for each site. Ground-level GPS is achieved by RTK GNSS using EMLID Reach RS+ receivers.
