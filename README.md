@@ -53,8 +53,9 @@ Remeber to change the root dir to your own path and make sure /images and /sat d
 We collect two multi-altitude datasets with ground truth GPS for two different sites. Each contains aerial imagery collected by UAV and ground imagery collected by handheld device. One high-resolution satellite imagery from Google Earth Pro is also included for each site. Ground-level GPS is achieved by RTK GNSS using EMLID Reach RS+ receivers.
 ### Stevens Institute of Technology Campus
 <p align="center">
-  <img src="assets/sit_dataset.jpg" height="315" style="margin-right: 20px;">
-  <img src="assets/sit_trajectory.jpg" height="315" style="margin-left: 20px;">
+  <img src="assets/sit_dataset.jpg" height="315">
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="assets/sit_trajectory.jpg" height="315">
 </p>
 
 This dataset contains 179 aerial images, 186 ground images and 1 satellite image.
