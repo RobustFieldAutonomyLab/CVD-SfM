@@ -1,6 +1,7 @@
 ## CVD-SfM
 
 This repository provides the code implementation of our IROS 2025. We developed a Cross-View Deep Front-end Structure-from-Motion System for Sparse Localization in Multi-Altitude Scenes. The performance of our approach is shown in the video. 
+
 We also create 2 multi-altitude datasets with ground truth GPS for two different sites. Each contains aerial imagery collected by UAV and ground imagery collected by handheld device. One high-resolution satellite imagery from Google Earth Pro is also included for each site. Ground-level GPS is achieved by RTK GNSS using EMLID Reach RS+ receivers. You can get the dataset on hugging face: https://huggingface.co/datasets/yaxlee/Stevens-Sky2Ground.
 
 If you find this repository useful, please cite our paper:
