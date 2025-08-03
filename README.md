@@ -65,6 +65,7 @@ This dataset contains 179 aerial images, 186 ground images and 1 satellite image
 ### Raritan Bay Waterfront Park
 <p align="center">
   <img src="assets/raritan_dataset.jpg" height="315">
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="assets/raritan_trajectory.jpg" height="315">
 </p>
 
