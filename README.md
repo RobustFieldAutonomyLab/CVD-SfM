@@ -13,6 +13,8 @@ If you find this repository useful, please cite our paper:
 
 ## Benchmark
 
+We visualize pose estimation on three different datasets. Yellow Points represent estimated poses; cyan points represent ground truth poses.
+
 <p align="center">
   <img src="assets/BENCHMARK.png" height="380">
 </p>
@@ -54,7 +56,7 @@ We collect two multi-altitude datasets with ground truth GPS for two different s
 ### Stevens Institute of Technology Campus
 <p align="center">
   <img src="assets/sit_dataset.jpg" height="315">
-  &nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="assets/sit_trajectory.jpg" height="315">
 </p>
 
