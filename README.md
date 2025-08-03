@@ -56,7 +56,7 @@ We collect two multi-altitude datasets with ground truth GPS for two different s
 ### Stevens Institute of Technology Campus
 <p align="center">
   <img src="assets/sit_dataset.jpg" height="315">
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="assets/sit_trajectory.jpg" height="315">
 </p>
 
