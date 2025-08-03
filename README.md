@@ -16,7 +16,7 @@ If you find this repository useful, please cite our paper:
 We visualize pose estimation on three different datasets. Yellow Points represent estimated poses; cyan points represent ground truth poses.
 
 <p align="center">
-  <img src="assets/BENCHMARK.png" height="380">
+  <img src="assets/BENCHMARK.png" height="500">
 </p>
 
 ## Installation
