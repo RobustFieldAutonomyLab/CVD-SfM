@@ -21,7 +21,7 @@ We visualize pose estimation results on three different datasets. Yellow Points 
 
 Reconstructed Model review on SIT Campus dataset:
 <p align="center">
-  <img src="assets/cvd_sit.png" height="500">
+  <img src="assets/cvd_sit.png" height="200">
 </p>
 
 ## Installation
