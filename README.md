@@ -13,10 +13,15 @@ If you find this repository useful, please cite our paper:
 
 ## Benchmark
 
-We visualize pose estimation on three different datasets. Yellow Points represent estimated poses; cyan points represent ground truth poses.
+We visualize pose estimation results on three different datasets. Yellow Points represent estimated poses; cyan points represent ground truth poses.
 
 <p align="center">
   <img src="assets/BENCHMARK.png" height="500">
+</p>
+
+Reconstructed Model review on SIT Campus dataset:
+<p align="center">
+  <img src="assets/cvd_sit.png" height="500">
 </p>
 
 ## Installation
