@@ -19,7 +19,7 @@ We visualize pose estimation results on three different datasets. Yellow Points 
   <img src="assets/BENCHMARK.png" height="500">
 </p>
 
-Reconstructed Model review on SIT Campus dataset:
+Reconstructed Model review on SIT Campus dataset. Red frames represent aerial images, blue frames represent ground images, black frame on the top represent reference satellite image.
 <p align="center">
   <img src="assets/cvd_sit.png" height="400">
 </p>
