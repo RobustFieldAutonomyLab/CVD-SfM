@@ -1,6 +1,6 @@
 ## CVD-SfM
 
-This repository accompanies the paper [CVD-SfM: A Cross-View Deep Front-end Structure-from-Motion System for Sparse Localization in Multi-Altitude Scenes (IROS 2025)] (https://www.arxiv.org/abs/2508.01936). If you find this work useful please cite out paper.
+This repository accompanies the paper [CVD-SfM: A Cross-View Deep Front-end Structure-from-Motion System for Sparse Localization in Multi-Altitude Scenes (IROS 2025)](https://www.arxiv.org/abs/2508.01936). If you find this work useful please cite out paper.
 
 ````bibtex
 @misc{li2025cvdsfmcrossviewdeepfrontend,
