@@ -1,6 +1,20 @@
 ## CVD-SfM
 
-This repository provides the code implementation of our **IROS 2025** paer. We developed a Cross-View Deep Front-end Structure-from-Motion System for Sparse Localization in Multi-Altitude Scenes. The performance of our approach is shown in the video. 
+This repository accompanies the paper [CVD-SfM: A Cross-View Deep Front-end Structure-from-Motion System for Sparse Localization in Multi-Altitude Scenes (IROS 2025)] (https://www.arxiv.org/abs/2508.01936). If you find this work useful please cite out paper.
+
+````bibtex
+@misc{li2025cvdsfmcrossviewdeepfrontend,
+      title={CVD-SfM: A Cross-View Deep Front-end Structure-from-Motion System for Sparse Localization in Multi-Altitude Scenes}, 
+      author={Yaxuan Li and Yewei Huang and Bijay Gaudel and Hamidreza Jafarnejadsani and Brendan Englot},
+      year={2025},
+      eprint={2508.01936},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2508.01936}, 
+}
+````
+
+We developed a Cross-View Deep Front-end Structure-from-Motion System for Sparse Localization in Multi-Altitude Scenes. The performance of our approach is shown in the video. 
 
 <p align="center">
   <img src="assets/pipe.png" height="315">
